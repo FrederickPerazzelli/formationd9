@@ -1,0 +1,7 @@
+name: form_module
+type: module
+description: Module to generate a user form.
+package: Custom
+core_version_requirement: ^9 || ^10
+
+configure: form_module.settings

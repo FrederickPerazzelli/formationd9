@@ -1,0 +1,6 @@
+form_module.settings_form:
+  title: 'form_module'
+  description: 'Configure form_module.'
+  parent: system.admin_config_system
+  route_name: form_module.settings_form
+  weight: 10

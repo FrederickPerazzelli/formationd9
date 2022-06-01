@@ -1,0 +1,6 @@
+api_json.settings_form:
+  title: 'api_json'
+  description: 'Configure api_json.'
+  parent: system.admin_config_system
+  route_name: api_json.settings_form
+  weight: 10

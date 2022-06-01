@@ -1,0 +1,8 @@
+# Schema for the configuration files of the api_json module.
+api_json.settings:
+  type: config_object
+  label: 'api_json settings'
+  mapping:
+    example:
+      type: string
+      label: 'Example'

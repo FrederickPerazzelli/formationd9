@@ -1,0 +1,30 @@
+form_module.example:
+  path: '/form-module/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\form_module\Controller\FormModuleController::build'
+  requirements:
+    _permission: 'access content'
+
+form_module.settings_form:
+  path: '/form-module/settings'
+  defaults:
+    _title: 'Configuration of admin settings'
+    _form: 'Drupal\form_module\Form\SettingsForm'
+  requirements:
+    _permission: 'administer form_module configuration'
+
+form_module.user_form:
+  path: '/form-module/user-form'
+  defaults:
+    _controller: '\Drupal\form_module\Controller\UserFormController::content'
+  requirements:
+    _permission: 'access content'
+
+form_module.test_var:
+  path: '/form-module/test-var'
+  defaults:
+    _title: 'My-Template - Test'
+    _controller: '\Drupal\form_module\Controller\UserFormController::test_var'
+  requirements:
+    _permission: 'access content'

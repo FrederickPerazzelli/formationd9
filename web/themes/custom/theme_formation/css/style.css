@@ -1,0 +1,92 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+.menu-color {
+  color: white;
+}
+
+.menu-color:hover {
+  color: lightslategrey;
+}
+
+.slogan-color {
+  color: white;
+  padding-left: 15px;
+  /* %%%% */
+}
+
+#navbar-top {
+  justify-content: flex-end;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#navbar-main {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 15px;
+}
+
+.website-title-nav {
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.breadcrumb {
+  padding-left: 15px;
+}
+
+#block-theme-formation-search {
+  border-radius: 10px;
+}
+
+
+#block-theme-formation-cestunbloc {
+  border-radius: 10px;
+}
+
+
+#block-theme-formation-tools {
+  border-radius: 10px;
+}
+
+
+#block-theme-formation-views-block-ville-tag-block-1 {
+  border-radius: 10px;
+}
+
+.field--name-field-banner {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.field--name-field-banner > img {
+  width: 100%;
+}
+
+.field--name-field-banner-complement {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.field--name-field-banner-complement > img {
+  width: 100%;
+}
+
+.test-center {
+  width: 50%;
+}
+
+.justify-center-test {
+  display: flex;
+  justify-content: center;
+}
+
+.form-module-main {
+  padding-bottom: 10px;
+}
+

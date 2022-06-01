@@ -1,0 +1,6 @@
+services:
+  api_json.event_subscriber:
+    class: Drupal\api_json\EventSubscriber\ApiJsonSubscriber
+    arguments: [ '@messenger' ]
+    tags:
+      - { name: event_subscriber }

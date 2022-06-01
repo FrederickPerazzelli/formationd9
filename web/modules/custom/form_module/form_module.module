@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @file
+ * Implementing hook_theme()
+ */
+function form_module_theme($existing, $type, $theme, $path)
+{
+  //throw new Exception('Erreur Theme');
+  return [
+    'user-form' => [
+      'render element' => 'form',
+    ]
+  ];
+}
+
+
+/**
+ * Implements hook_theme().
+ * function form_module_theme($existing, $type, $theme, $path){
+ * return [
+ * 'my_template' => [
+ * 'variables' => ['test_var' => NULL],
+ * ],
+ * ];
+ * }
+ */

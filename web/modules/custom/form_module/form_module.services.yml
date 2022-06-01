@@ -1,0 +1,6 @@
+services:
+  form_module.event_subscriber:
+    class: Drupal\form_module\EventSubscriber\FormModuleSubscriber
+    arguments: [ '@messenger' ]
+    tags:
+      - { name: event_subscriber }

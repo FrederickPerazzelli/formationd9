@@ -1,0 +1,4 @@
+administer form_module configuration:
+  title: 'Administer form_module configuration'
+  description: 'Optional description.'
+  restrict access: true

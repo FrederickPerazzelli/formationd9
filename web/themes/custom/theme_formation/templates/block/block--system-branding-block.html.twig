@@ -1,0 +1,39 @@
+{#
+/**
+ * @file
+ * Bootstrap Barrio's theme implementation for a branding block.
+ *
+ * Each branding element variable (logo, name, slogan) is only available if
+ * enabled in the block configuration.
+ *
+ * Available variables:
+ * - site_logo: Logo for site as defined in Appearance or theme settings.
+ * - site_name: Name for site as defined in Site information settings.
+ * - site_slogan: Slogan for site as defined in Site information settings.
+ */
+#}
+{% set attributes = attributes.addClass('site-branding') %}
+  {% if site_logo or site_name %}
+    <div class="d-flex">
+      <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home" class="navbar-brand">
+        {% if site_logo %}
+          <div>
+            <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" class="img-fluid"/>
+          </div>
+        {% endif %}
+      </a>
+      {% if site_slogan %}
+        <div>
+          <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home" class="website-title-nav">
+            <div class="slogan-color">
+              {{ site_name }}
+            </div>
+          </a>
+          <div class="site-name-slogan slogan-color">
+            {{ site_slogan }}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+

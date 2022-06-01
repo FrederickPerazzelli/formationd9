@@ -1,0 +1,5 @@
+name: api_json
+type: module
+description: Api that return json response
+package: Custom
+core_version_requirement: ^9 || ^10
