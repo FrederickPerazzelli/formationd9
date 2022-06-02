@@ -21,14 +21,12 @@ abstract class ReportWorkerBase extends QueueWorkerBase implements ContainerFact
 
   /**
    * The state.
-   *
    * @var \Drupal\Core\State\StateInterface
    */
   protected $state;
 
   /**
    * The logger.
-   *
    * @var \Psr\Log\LoggerInterface
    */
   protected $logger;
