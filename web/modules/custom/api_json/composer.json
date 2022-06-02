@@ -1,6 +1,12 @@
 {
     "name": "org/api_json",
+    "description": "A module that also make drush command.",
     "type": "drupal-drush",
+    "autoload": {
+        "psr-4": {
+            "Drupal\\api_json\\": "src/"
+        }
+    },
     "extra": {
         "drush": {
             "services": {

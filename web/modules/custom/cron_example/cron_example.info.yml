@@ -1,0 +1,5 @@
+name: cron_example
+type: module
+description: Example of cron use for a drupal website.
+package: Custom
+core_version_requirement: ^9 || ^10
