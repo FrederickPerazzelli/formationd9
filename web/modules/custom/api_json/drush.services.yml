@@ -1,0 +1,5 @@
+services:
+  api_json.commands:
+    class: \Drupal\api_json\Commands\ApiJsonCommands
+    tags:
+      - { name: drush.command }

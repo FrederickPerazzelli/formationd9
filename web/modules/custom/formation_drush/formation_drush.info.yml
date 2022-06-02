@@ -1,0 +1,5 @@
+name: Formation Drush Command
+type: module
+description: Create Custom Drush command
+package: Formation
+core_version_requirement: ^9 || ^10
